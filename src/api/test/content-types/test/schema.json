@@ -4,7 +4,8 @@
   "info": {
     "singularName": "test",
     "pluralName": "tests",
-    "displayName": "test"
+    "displayName": "test",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,15 @@
     },
     "object": {
       "type": "json"
+    },
+    "tett": {
+      "type": "richtext"
+    },
+    "courses": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::course.course",
+      "mappedBy": "tests"
     }
   }
 }

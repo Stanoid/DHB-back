@@ -20,6 +20,21 @@
     },
     "img": {
       "type": "string"
+    },
+    "enrolled": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "course"
+    },
+    "price": {
+      "type": "string"
+    },
+    "tests": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::test.test",
+      "inversedBy": "courses"
     }
   }
 }
