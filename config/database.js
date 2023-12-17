@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
        port: env.int('DATABASE_PORT', 3306),
        database: env('DATABASE_NAME', 'dhbsudan_platform'),
        user: env('DATABASE_USERNAME', 'dhbsudan_stanoid'),
-       password: env('DATABASE_PASSWORD', '11235813mJ'),
+       password: env('DATABASE_PASSWORD', '11235813mJ#'),
        ssl: env.bool('DATABASE_SSL', true),
      },
 
