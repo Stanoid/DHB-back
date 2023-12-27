@@ -25,9 +25,6 @@
       "relation": "oneToOne",
       "target": "api::batch.batch"
     },
-    "reciept": {
-      "type": "biginteger"
-    },
     "vidLink": {
       "type": "string"
     },
@@ -36,6 +33,9 @@
     },
     "vidBlob": {
       "type": "text"
+    },
+    "bill": {
+      "type": "json"
     }
   }
 }
