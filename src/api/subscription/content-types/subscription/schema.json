@@ -36,6 +36,12 @@
     },
     "bill": {
       "type": "json"
+    },
+    "batches": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::batch.batch",
+      "inversedBy": "subscriptions"
     }
   }
 }
