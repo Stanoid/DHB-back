@@ -71,9 +71,6 @@
     "gender": {
       "type": "string"
     },
-    "age": {
-      "type": "integer"
-    },
     "adress": {
       "type": "string"
     },
@@ -101,6 +98,9 @@
       "relation": "manyToOne",
       "target": "api::batch.batch",
       "inversedBy": "enrolleds"
+    },
+    "age": {
+      "type": "string"
     }
   }
 }
