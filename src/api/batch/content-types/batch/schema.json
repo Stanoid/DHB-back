@@ -40,6 +40,9 @@
       "relation": "oneToMany",
       "target": "api::subscription.subscription",
       "mappedBy": "batches"
+    },
+    "attendence": {
+      "type": "json"
     }
   }
 }
