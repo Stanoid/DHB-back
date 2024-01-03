@@ -1,5 +1,13 @@
 module.exports = [
   'strapi::errors',
+  {
+    name: 'strapi::cors',
+    config: {
+      enabled: true,
+      headers: '*',
+      origin: '*'
+    }
+  },
   'strapi::security',
   'strapi::cors',
   'strapi::poweredBy',
@@ -9,14 +17,7 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-  {
-    name: 'strapi::cors',
-    config: {
-      enabled: true,
-      headers: '*',
-      origin: '*'
-    }
-  },
+
 ];
 
 
