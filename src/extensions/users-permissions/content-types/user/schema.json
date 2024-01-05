@@ -101,6 +101,9 @@
     },
     "age": {
       "type": "string"
+    },
+    "images": {
+      "type": "json"
     }
   }
 }
