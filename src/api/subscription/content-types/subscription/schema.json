@@ -18,7 +18,8 @@
       "target": "plugin::users-permissions.user"
     },
     "paid": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "batch": {
       "type": "relation",
@@ -42,6 +43,10 @@
       "relation": "manyToOne",
       "target": "api::batch.batch",
       "inversedBy": "subscriptions"
+    },
+    "ver": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
