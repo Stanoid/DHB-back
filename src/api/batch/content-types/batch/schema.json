@@ -43,6 +43,9 @@
     },
     "attendence": {
       "type": "json"
+    },
+    "images": {
+      "type": "json"
     }
   }
 }
