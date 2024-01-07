@@ -44,8 +44,8 @@
     "attendence": {
       "type": "json"
     },
-    "images": {
-      "type": "json"
+    "status": {
+      "type": "integer"
     }
   }
 }
